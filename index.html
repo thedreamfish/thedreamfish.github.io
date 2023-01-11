@@ -256,6 +256,73 @@
         <script src="particles.min.js"></script>
         <script src="scripts.min.js"></script>
     </body>
+        <screen-shader style="display: block; transition: none 0s ease 0s; margin: 0px; padding: 0px; border-radius: 0px; border: none; outline: none; visibility: visible; max-height: none; max-width: none; clip: unset; overflow: visible; opacity: 1;"><!--This is an element that contains all the html for the screen shader extension to work--><div style="display: block; transition: none 0s ease 0s; margin: 0px; padding: 0px; border-radius: 0px; border: none; outline: none; visibility: visible; max-height: none; max-width: none; clip: unset; overflow: visible; opacity: 0; position: fixed; inset: -10%; width: auto; height: auto; z-index: 2147483646; background: black;"></div><div style="display: block; transition: none 0s ease 0s; margin: 0px; padding: 0px; border-radius: 0px; border: none; outline: none; visibility: visible; max-height: none; max-width: none; clip: unset; overflow: visible; opacity: 1; position: fixed; inset: -10%; width: auto; height: auto; z-index: 2147483645; background: rgba(255, 147, 41, 0.263); mix-blend-mode: multiply;"></div><style>screen-shader{pointer-events: none !important;z-index: auto !important;}</style><style>
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar {
+                                    background: rgb(241,214,188) !important;
+                                    width: 17px !important;
+                                    height: 17px !important;
+                                    -webkit-appearance: unset !important;
+                                }
+
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar-track {
+                                    background: transparent !important;
+                                }
+
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar-corner{
+                                    background: rgb(210,187,163) !important;
+                                    box-shadow: none !important;
+                                    border-radius: unset !important;
+                                }
+
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar-thumb{
+                                    background: rgb(193,171,150) !important;
+                                    border: 2px solid rgb(241,214,188) !important;
+                                    box-shadow: none !important;
+                                    border-radius: unset !important;
+                                }
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar-thumb:vertical{
+                                    border-bottom-width: 0 !important;
+                                    border-top-width: 0 !important;
+                                }
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar-thumb:horizontal{
+                                    border-left-width: 0 !important;
+                                    border-right-width: 0 !important;
+                                }
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar-thumb:hover {
+                                    background: rgb(80,71,62) !important;
+                                }
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar-thumb:active {
+                                    background: rgb(120,107,93) !important;
+                                }
+
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar-button{
+                                    background-color: rgb(241,214,188) !important;
+                                    background-repeat: no-repeat !important;
+                                    background-position: center !important;
+                                    box-shadow: none !important;
+                                    border-radius: unset !important;
+                                }
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar-button:active{
+                                    background-color: rgb(120,107,93) !important; /* also arrow image should be white */
+                                }
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar-button:hover{
+                                    background-color: rgb(210,187,163) !important;
+                                }
+
+
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar-button:vertical:decrement {
+                                    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAAXNSR0IArs4c6QAAACtJREFUGFdjZMADGJHlAtzt/m/YeQguBmeAJGAKYQrAksgSyAoYsUnAFAAAebEN2tgwUcAAAAAASUVORK5CYII=) !important;
+                                }
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar-button:vertical:increment {
+                                    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAAXNSR0IArs4c6QAAACtJREFUGFdjDHC3+8+AAzCCxLEp2LDzECNYEl0BSAIkBpeEKYBJYEiiWw0ATdAN2oykJmoAAAAASUVORK5CYII=) !important;
+                                }
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar-button:horizontal:decrement {
+                                    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAHCAYAAADAp4fuAAAAAXNSR0IArs4c6QAAAChJREFUGFdjZEAF/xkYGBgZkcRAAiAAF4QJwAWRBfCrhBmLYSayBCMAAr0HCH164I4AAAAASUVORK5CYII=) !important;
+                                }
+                                :root.ss-shaded-scrollbars::-webkit-scrollbar-button:horizontal:increment {
+                                    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAHCAYAAADAp4fuAAAAAXNSR0IArs4c6QAAAChJREFUGFdjZICA/wwMDIxQNpwBEgQBsARMFiYIFsMmSJxKDDPhtgMAFoEHBwXO+y4AAAAASUVORK5CYII=) !important;
+                                }
+                            </style><html style="display: block; transition: none 0s ease 0s; margin: 0px; padding: 0px; border-radius: 0px; border: none; outline: none; visibility: visible; max-height: none; max-width: none; clip: unset; overflow: visible; opacity: 1; position: fixed; inset: -10%; width: auto; height: auto; z-index: -2147483647;"></html><div style="display: block; transition: none 0s ease 0s; margin: 0px; padding: 0px; border-radius: 0px; border: none; outline: none; visibility: visible; max-height: none; max-width: none; clip: unset; overflow: visible; opacity: 1; position: fixed; inset: -10%; width: auto; height: auto; z-index: -2147483646; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"></div></screen-shader>
 </html>
             
             
