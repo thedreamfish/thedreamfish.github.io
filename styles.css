@@ -563,8 +563,8 @@ no-particles-js {
 }
 .project-image {
   float: left;
-  max-width: 300px;
-  max-height: 300px;
+  width: 300px;
+  height: 300px;
 }
 .project-info {
   position: absolute;
